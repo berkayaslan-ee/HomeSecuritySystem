@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'KSC221JLFS'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "LITTELFUSE", "KSC221JLFS" (!) = "", "KSC221JLFS", "Other", "", "", "", "", "SEALED TACT SWITCH FOR SMT", "https://www.ckswitches.com/media/1968/ksc2.pdf", "3.5 mm"
+END_PART
+
+END.

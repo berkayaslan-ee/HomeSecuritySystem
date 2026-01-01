@@ -1,0 +1,97 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "Labcenter Electronics")
+ (version 1 0)
+ (library
+  (part "JS102011SCQN"
+   (description "SWITCH SLIDE SPDT 300MA 6V")
+   (family "SWI")
+   (index CAT "Miscellaneous")
+   (package "JS102011SCQN")
+   (attribute "Arrow Part Number" "JS102011SCQN")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/js102011scqn/ck?utm_currency=USD&region=nac")
+   (attribute "Datasheet Link" "https://www.ckswitches.com/media/1422/js.pdf")
+   (attribute "Geometry.Height" "5mm")
+   (attribute "Manufacturer_Name" "C & K COMPONENTS")
+   (attribute "Manufacturer_Part_Number" "JS102011SCQN")
+   (attribute "Mouser Part Number" "611-JS102011SCQN")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/JS102011SCQN?qs=aIxPIZZxLh%2FC%2Fw7UJtfwsg%3D%3D")
+   (gate (swap 18) (symbol "JS102011SCQN") (pin "1" 1) (pin "C" 2) (pin "3" 3)))
+  (symbol "JS102011SCQN"
+   (units MM)
+   (graphic
+    (stroke 0.254)
+    (path
+     (pt 5.08 2.54)
+     (pt 15.24 2.54)
+     (pt 15.24 -5.08)
+     (pt 5.08 -5.08)
+     (pt 5.08 2.54)
+     (closed)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 5.842 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 3.556 0.508) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 20.32 0) (rot 0) (mir X) (visible true))
+    (name (pt 5.842 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 3.556 0.508) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -2.54) (rot 0) (mir 0) (visible true))
+    (name (pt 5.842 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 3.556 0.508) (rot 0) (just BOTTOM RIGHT) (visible true))))
+  (symbol "PIN"
+   (units MM)
+   (graphic
+    (stroke 0.254)
+    (path (pt 0 0) (pt 5.08 0))))
+  (symbol "PINSHORT"
+   (units MM)
+   (graphic
+    (stroke 0.254)
+    (path (pt 0 0) (pt 2.54 0))))
+  (package "JS102011SCQN"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (pt -5.25 5.88)
+      (pt 5.25 5.88)
+      (pt 5.25 -4.62)
+      (pt -5.25 -4.62)
+      (pt -5.25 5.88)
+      (closed))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path (pt -3.5 -0.88) (pt -4.25 -0.88) (pt -4.25 2.62) (pt -1.5 2.62)))
+    (graphic
+     (stroke 0.1)
+     (path (pt 1.5 2.62) (pt 4.25 2.62) (pt 4.25 -0.88) (pt 3.5 -0.88)))
+    (graphic
+     (stroke 0.1)
+     (path (pt -1 -0.88) (pt 1 -0.88)))
+    (graphic
+     (stroke 0.2)
+     (path
+      (pt -2.6 -3.52)
+      (arc (pt -2.6 -3.52) (pt -2.6 -3.62) (pt -2.4 -3.42) (start -180) (sweep 180))
+      (pt -2.4 -3.52)
+      (arc (pt -2.4 -3.52) (pt -2.6 -3.62) (pt -2.4 -3.42) (start -180) (sweep 0))
+      (pt -2.6 -3.52))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (pt -4.25 2.62)
+      (pt 4.25 2.62)
+      (pt 4.25 -0.88)
+      (pt -4.25 -0.88)
+      (pt -4.25 2.62)
+      (closed))))
+   (leg 1 (pt -2.5 -1.88) (padstack 0))
+   (leg 2 (pt 0 3.62) (padstack 0))
+   (leg 3 (pt 2.5 -1.88) (padstack 0))
+   (padstack 0
+    (pad (layer TCOP) (rectf 1 2.5 0 0 90))))))

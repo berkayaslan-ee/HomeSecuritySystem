@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "LSSAM22VTR"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "LSSAM22VTR")
+        (spec "default")
+    )
+)

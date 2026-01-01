@@ -1,0 +1,18 @@
+.JS102011SCQN :1 ;SWITCH SLIDE SPDT 300MA 6V
+JS102011SCQN
+*STM S
+*NGS
+*PLB 1="1" 2="C" 3="3"
+*MXP 3
+*DFN JS102011SCQN
+~!Manufacturer_Name (C & K COMPONENTS)
+~!Manufacturer_Part_Number (JS102011SCQN)
+~!Mouser Part Number (611-JS102011SCQN)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/CK/JS102011SCQN?qs=aIxPIZZxLh%2FC%2Fw7UJtfwsg%3D%3D)
+~!Arrow Part Number (JS102011SCQN)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/js102011scqn/ck?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.ckswitches.com/media/1422/js.pdf)
+~!Height (5mm)
+~!3D_Model (JS102011SCQN)
+JS102011SCQN
+1.1!U 2.1!U 3.1!U 

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "JS102011SCQN"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "JS102011SCQN")
+        (spec "default")
+    )
+)

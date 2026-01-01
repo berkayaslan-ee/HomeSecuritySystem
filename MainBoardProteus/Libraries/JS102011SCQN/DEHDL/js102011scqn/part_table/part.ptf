@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'JS102011SCQN'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "C & K COMPONENTS", "JS102011SCQN" (!) = "", "JS102011SCQN", "Other", "611-JS102011SCQN", "https://www.mouser.co.uk/ProductDetail/CK/JS102011SCQN?qs=aIxPIZZxLh%2FC%2Fw7UJtfwsg%3D%3D", "JS102011SCQN", "https://www.arrow.com/en/products/js102011scqn/ck?utm_currency=USD&region=nac", "SWITCH SLIDE SPDT 300MA 6V", "https://www.ckswitches.com/media/1422/js.pdf", "5 mm"
+END_PART
+
+END.

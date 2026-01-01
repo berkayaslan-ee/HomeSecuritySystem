@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "KSC221JLFS"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "KSC221JLFS")
+        (spec "default")
+    )
+)

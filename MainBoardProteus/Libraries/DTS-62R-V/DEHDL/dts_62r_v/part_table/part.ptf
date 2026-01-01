@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DTS_62R_V'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diptronics", "DTS-62R-V" (!) = "", "DTS62RV", "Other", "113-DTS62RV", "https://www.mouser.co.uk/ProductDetail/Diptronics/DTS-62R-V?qs=MLItCLRbWswrP5XEDr4Cgg%3D%3D", "", "", "Switch Tactile N.O. SPST Round Button PC Pins 0.05A 12VDC 2.55N Thru-Hole", "http://www.dip.com.tw/en/en-product-information/en-switch004/item/download/2504_1f511f4f5b826e90b17b1a41bfb6a3ce", "5 mm"
+END_PART
+
+END.

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LSSAM22-V-T_R"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-07-07-11:58:32)
+    (mountForm default
+        (footprintRef "LSSAM22VTR")
+        (spec "System")
+    )
+)

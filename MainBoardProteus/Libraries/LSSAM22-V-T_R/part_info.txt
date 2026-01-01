@@ -1,0 +1,9 @@
+Manufacturer=Diptronics
+PartNumber=LSSAM22-V-T/R
+PartCategory=Switch
+PackageCategory=Other
+PinCount=6
+Version=1.4
+Released=2021-07-07 11:58:32
+Downloaded=2025-02-18 13:21:49
+3D=Y

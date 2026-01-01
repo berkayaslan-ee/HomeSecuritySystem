@@ -1,0 +1,18 @@
+.KSC221JLFS :1 ;SEALED TACT SWITCH FOR SMT
+KSC221JLFS
+*STM S
+*NGS
+*PLB 1="NO_1" 2="COM_1" 3="COM_2" 4="NO_2"
+*MXP 4
+*DFN KSC221JLFS
+~!Manufacturer_Name (LITTELFUSE)
+~!Manufacturer_Part_Number (KSC221JLFS)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.ckswitches.com/media/1968/ksc2.pdf)
+~!Height (3.5mm)
+~!3D_Model (KSC221JLFS)
+KSC221JLFS
+1.1!U 2.1!U 3.1!U 4.1!U 

@@ -1,0 +1,18 @@
+.DTS-62R-V :1 ;Switch Tactile N.O. SPST Round Button PC Pins 0.05A 12VDC 2.55N Thru-Hole
+DTS62RV
+*STM S
+*NGS
+*PLB 1="COM_1" 2="COM_2" 3="NO_1" 4="NO_2"
+*MXP 4
+*DFN DTS-62R-V
+~!Manufacturer_Name (Diptronics)
+~!Manufacturer_Part_Number (DTS-62R-V)
+~!Mouser Part Number (113-DTS62RV)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diptronics/DTS-62R-V?qs=MLItCLRbWswrP5XEDr4Cgg%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://www.dip.com.tw/en/en-product-information/en-switch004/item/download/2504_1f511f4f5b826e90b17b1a41bfb6a3ce)
+~!Height (5mm)
+~!3D_Model (DTS-62R-V)
+DTS-62R-V
+1.1!U 2.1!U 3.1!U 4.1!U 

@@ -1,0 +1,138 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LSSAM22-V-T_R"
+   (description "Slide Switches Large-sized Type 2P2 T")
+   (family "SWI")
+   (package "LSSAM22VTR")
+   (attribute "Datasheet Link" "https://www.weltroniker.de/DB-Pool/DIP_LSS.pdf")
+   (attribute "Geometry.Height" "5.5mm")
+   (attribute "Manufacturer_Name" "Diptronics")
+   (attribute "Manufacturer_Part_Number" "LSSAM22-V-T/R")
+   (attribute "Mouser Part Number" "113-LSSAM22VTR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diptronics/LSSAM22-V-T-R?qs=MLItCLRbWsxyMNC1E8JP9w%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "LSSAM22-V-T_R")
+    (pin "NO_1" A1 PS)
+    (pin "COM_1" B1 PS)
+    (pin "NC_1" C1 PS)
+    (pin "NO_2" D1 PS)
+    (pin "COM_2" E1 PS)
+    (pin "NC_2" F1 PS)
+   )
+  )
+  (symbol "LSSAM22-V-T_R"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "LSSAM22VTR"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.75 1.75)
+      (pt 4.75 1.75)
+      (pt 4.75 -1.75)
+      (pt -4.75 -1.75)
+      (pt -4.75 1.75))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.75 5)
+      (pt 5.75 5)
+      (pt 5.75 -5)
+      (pt -5.75 -5)
+      (pt -5.75 5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.5 4.5)
+      (arc (pt -2.500 4.500) (pt -2.600 4.500) (pt -2.400 4.700) (start 180.0) (sweep -90.0))
+      (pt -2.5 4.7)
+      (arc (pt -2.500 4.700) (pt -2.600 4.500) (pt -2.400 4.700) (start 180.0) (sweep 90.0))
+      (pt -2.5 4.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.9 1.75)
+      (pt -4.75 1.75)
+      (pt -4.75 -1.75)
+      (pt -3.9 -1.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 3.9 -1.75)
+      (pt 4.75 -1.75)
+      (pt 4.75 1.75)
+      (pt 3.9 1.75))))
+   (leg A1 (pt -2.500 2.750) (padstack 0))
+   (leg B1 (pt 0.000 2.750) (padstack 0))
+   (leg C1 (pt 2.500 2.750) (padstack 0))
+   (leg D1 (pt -2.500 -2.750) (padstack 0))
+   (leg E1 (pt 0.000 -2.750) (padstack 0))
+   (leg F1 (pt 2.500 -2.750) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.200 2.500 0 0 90.000))
+   )
+   (model "LSSAM22-V-T_R.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

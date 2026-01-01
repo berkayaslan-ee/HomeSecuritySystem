@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "DTS62RV"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "DTS62RV")
+        (spec "default")
+    )
+)

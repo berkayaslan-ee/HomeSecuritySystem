@@ -1,0 +1,9 @@
+Manufacturer=C & K COMPONENTS
+PartNumber=JS102011SCQN
+PartCategory=Switch
+PackageCategory=Other
+PinCount=3
+Version=3.2
+Released=2018-06-05 15:27:13
+Downloaded=2025-02-18 13:16:20
+3D=Y

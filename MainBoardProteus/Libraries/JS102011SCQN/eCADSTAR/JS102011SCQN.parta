@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_1146835"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-06-05-15:27:13)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "JS102011SCQN")
+)
+
+
+(pinAssign "ECS_1146835"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-06-05-15:27:13)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "C") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1146835")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "JS102011SCQN")
+)
+
+
+(part "JS102011SCQN"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-06-05-15:27:13)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "JS102011SCQN")
+    (pinAssignRef "ECS_1146835")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "C") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "S")
+    (property "description" "SWITCH SLIDE SPDT 300MA 6V")
+    (property "Manufacturer_Name" "C & K COMPONENTS")
+    (property "Manufacturer_Part_Number" "JS102011SCQN")
+    (property "Mouser_Part_Number" "611-JS102011SCQN")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/JS102011SCQN?qs=aIxPIZZxLh%2FC%2Fw7UJtfwsg%3D%3D")
+    (property "Arrow_Part_Number" "JS102011SCQN")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/js102011scqn/ck?utm_currency=USD&region=nac")
+    (property "Datasheet_Link" "https://www.ckswitches.com/media/1422/js.pdf")
+    (property "compAreaTopHeight" 5)
+)
+
+

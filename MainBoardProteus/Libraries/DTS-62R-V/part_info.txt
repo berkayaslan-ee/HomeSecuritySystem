@@ -1,0 +1,9 @@
+Manufacturer=Diptronics
+PartNumber=DTS-62R-V
+PartCategory=Switch
+PackageCategory=Other
+PinCount=4
+Version=1.3
+Released=2024-05-24 05:01:56
+Downloaded=2025-02-07 12:56:31
+3D=Y

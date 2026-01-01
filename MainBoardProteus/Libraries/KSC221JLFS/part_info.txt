@@ -1,0 +1,9 @@
+Manufacturer=LITTELFUSE
+PartNumber=KSC221JLFS
+PartCategory=Switch
+PackageCategory=Other
+PinCount=4
+Version=2.1
+Released=2024-07-09 04:52:06
+Downloaded=2025-02-07 13:12:50
+3D=Y

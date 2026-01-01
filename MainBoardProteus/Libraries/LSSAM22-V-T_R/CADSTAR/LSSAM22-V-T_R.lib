@@ -1,0 +1,19 @@
+.LSSAM22-V-T_R :1 ;Slide Switches Large-sized Type 2P2 T
+LSSAM22VTR
+*STM S
+*NGS
+*PNM 1=A1 2=B1 3=C1 4=D1 5=E1 6=F1
+*PLB 1="NO_1" 2="COM_1" 3="NC_1" 4="NO_2" 5="COM_2" 6="NC_2"
+*MXP 6
+*DFN LSSAM22-V-T_R
+~!Manufacturer_Name (Diptronics)
+~!Manufacturer_Part_Number (LSSAM22-V-T/R)
+~!Mouser Part Number (113-LSSAM22VTR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diptronics/LSSAM22-V-T-R?qs=MLItCLRbWsxyMNC1E8JP9w%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.weltroniker.de/DB-Pool/DIP_LSS.pdf)
+~!Height (5.5mm)
+~!3D_Model (LSSAM22-V-T_R)
+LSSAM22-V-T_R
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

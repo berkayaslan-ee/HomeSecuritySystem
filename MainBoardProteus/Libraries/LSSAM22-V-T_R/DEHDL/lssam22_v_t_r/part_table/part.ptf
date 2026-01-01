@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LSSAM22_V_T_R'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diptronics", "LSSAM22-V-T/R" (!) = "", "LSSAM22VTR", "Other", "113-LSSAM22VTR", "https://www.mouser.co.uk/ProductDetail/Diptronics/LSSAM22-V-T-R?qs=MLItCLRbWsxyMNC1E8JP9w%3D%3D", "", "", "Slide Switches Large-sized Type 2P2 T", "https://www.weltroniker.de/DB-Pool/DIP_LSS.pdf", "5.5 mm"
+END_PART
+
+END.
