@@ -1,0 +1,18 @@
+.CDRH127-221M :1 ;IINDUCTOR POWER 220uH, 1.45A, 12X12X8mm SMD
+CDRH127221M
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN CDRH127-221M
+~!Manufacturer_Name (Galaxy)
+~!Manufacturer_Part_Number (CDRH127-221M)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.mouser.com/datasheet/2/390/CDRH127,127LD-514245.pdf)
+~!Height (8mm)
+~!3D_Model (CDRH127-221M)
+CDRH127-221M
+1.1!U 2.1!U 

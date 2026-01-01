@@ -1,0 +1,9 @@
+Manufacturer=ASSMANN WSW components GmbH
+PartNumber=A-2004-2-4-LP-N-R
+PartCategory=Connector
+PackageCategory=Other
+PinCount=8
+Version=1.2
+Released=2020-07-25 12:37:51
+Downloaded=2025-01-24 15:37:07
+3D=Y

@@ -1,0 +1,9 @@
+Manufacturer=Soberton Inc.
+PartNumber=WT-1205
+PartCategory=Loudspeaker or Buzzer
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2020-06-19 10:23:59
+Downloaded=2025-01-24 15:28:48
+3D=Y

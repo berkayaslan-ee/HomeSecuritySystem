@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CDRH127_221M'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Galaxy", "CDRH127-221M" (!) = "", "CDRH127221M", "Other", "", "", "", "", "IINDUCTOR POWER 220uH, 1.45A, 12X12X8mm SMD", "https://www.mouser.com/datasheet/2/390/CDRH127,127LD-514245.pdf", "8 mm"
+END_PART
+
+END.

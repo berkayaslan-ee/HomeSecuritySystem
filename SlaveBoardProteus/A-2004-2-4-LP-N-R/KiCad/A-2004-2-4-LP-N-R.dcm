@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A-2004-2-4-LP-N-R
+D Conn Modular Jack F 8 POS 2.54mm Solder RA Thru-Hole 8 Terminal 1 Port
+K
+F http://www.assmann-wsw.com/fileadmin/datasheets/ASS_7273_CO.pdf
+$ENDCMP
+#
+#End Doc Library

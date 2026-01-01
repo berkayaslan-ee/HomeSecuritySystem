@@ -1,0 +1,9 @@
+Manufacturer=Keystone Electronics
+PartNumber=1074
+PartCategory=Undefined or Miscellaneous
+PackageCategory=Other
+PinCount=3
+Version=1.1
+Released=2019-04-15 10:59:10
+Downloaded=2025-01-24 14:08:16
+3D=Y

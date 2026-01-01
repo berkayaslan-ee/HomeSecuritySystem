@@ -1,0 +1,18 @@
+.1074 :1 ;Coin Cell Battery Holders VERTICAL THM COIN CELL HOLDER
+"1074"
+*STM U
+*NGS
+*PLB 1="1" 2="2" 3="3"
+*MXP 3
+*DFN 1074
+~!Manufacturer_Name (Keystone Electronics)
+~!Manufacturer_Part_Number (1074)
+~!Mouser Part Number (534-1074)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1074?qs=u16ybLDytRZ%2FZj7HSRmD5g%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.keyelco.com/product-pdf.cfm?p=14390)
+~!Height (18.3mm)
+~!3D_Model (1074)
+"1074"
+1.1!U 2.1!U 3.1!U 

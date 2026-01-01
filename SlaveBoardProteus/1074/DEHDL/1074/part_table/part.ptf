@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1074'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Keystone Electronics", "1074" (!) = "", "1074", "Other", "534-1074", "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1074?qs=u16ybLDytRZ%2FZj7HSRmD5g%3D%3D", "", "", "Coin Cell Battery Holders VERTICAL THM COIN CELL HOLDER", "https://www.keyelco.com/product-pdf.cfm?p=14390", "18.3 mm"
+END_PART
+
+END.

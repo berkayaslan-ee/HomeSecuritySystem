@@ -1,0 +1,208 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "A-2004-2-4-LP-N-R"
+   (description "Conn Modular Jack F 8 POS 2.54mm Solder RA Thru-Hole 8 Terminal 1 Port")
+   (family "CON")
+   (package "A200424LPNR")
+   (attribute "Datasheet Link" "http://www.assmann-wsw.com/fileadmin/datasheets/ASS_7273_CO.pdf")
+   (attribute "Geometry.Height" "11.75mm")
+   (attribute "Manufacturer_Name" "ASSMANN WSW components GmbH")
+   (attribute "Manufacturer_Part_Number" "A-2004-2-4-LP-N-R")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "A-2004-2-4-LP-N-R")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/a-2004-2-4-lp-n-r/assmann-wsw-components-inc?region=nac")
+   (gate
+    (symbol "A-2004-2-4-LP-N-R")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "6" 6 PS)
+    (pin "7" 7 PS)
+    (pin "8" 8 PS)
+   )
+  )
+  (symbol "A-2004-2-4-LP-N-R"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt -600 100) (pt -200 100) (pt -200 -800) (pt -600 -800) (pt -600 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -700) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "A200424LPNR"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.055 -14.2)
+      (pt 11.945 -14.2)
+      (pt 11.945 3.8)
+      (pt -3.055 3.8)
+      (pt -3.055 -14.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.055 -4.25)
+      (pt -3.055 -4.25)
+      (pt -3.055 3.8)
+      (pt -3.055 3.8)
+      (pt -3.055 -4.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.055 3.8)
+      (pt 11.945 3.8)
+      (pt 11.945 3.8)
+      (pt -3.055 3.8)
+      (pt -3.055 3.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 11.945 3.8)
+      (pt 11.945 3.8)
+      (pt 11.945 -4.25)
+      (pt 11.945 -4.25)
+      (pt 11.945 3.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 11.945 -8.25)
+      (pt 11.945 -8.25)
+      (pt 11.945 -14.2)
+      (pt 11.945 -14.2)
+      (pt 11.945 -8.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 11.945 -14.2)
+      (pt -3.055 -14.2)
+      (pt -3.055 -14.2)
+      (pt 11.945 -14.2)
+      (pt 11.945 -14.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.055 -14.2)
+      (pt -3.055 -14.2)
+      (pt -3.055 -8.25)
+      (pt -3.055 -8.25)
+      (pt -3.055 -14.2))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.055 4.8)
+      (pt 12.945 4.8)
+      (pt 12.945 -15.2)
+      (pt -4.055 -15.2)
+      (pt -4.055 4.8))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 1.270 2.540) (padstack 0))
+   (leg 3 (pt 2.540 0.000) (padstack 0))
+   (leg 4 (pt 3.810 2.540) (padstack 0))
+   (leg 5 (pt 5.080 0.000) (padstack 0))
+   (leg 6 (pt 6.350 2.540) (padstack 0))
+   (leg 7 (pt 7.620 0.000) (padstack 0))
+   (leg 8 (pt 8.890 2.540) (padstack 0))
+   (leg MH1 (pt -1.270 -6.350) (padstack 9))
+   (leg MH2 (pt 10.160 -6.350) (padstack 10))
+   (padstack 0
+    (hole 0.9)
+    (plated true)
+    (pad (layer TCOP) (round 1.400))
+    (pad (layer INNER) (round 1.400))
+    (pad (layer BCOP) (round 1.400))
+   )
+   (padstack 1
+    (hole 0.9)
+    (plated true)
+    (pad (layer TCOP) (square 1.400))
+    (pad (layer INNER) (round 1.400))
+    (pad (layer BCOP) (square 1.400))
+   )
+   (padstack 9
+    (hole 3.2)
+    (plated false)
+    (pad (layer TCOP) (round 1.600))
+    (pad (layer INNER) (round 1.600))
+    (pad (layer BCOP) (round 1.600))
+   )
+   (padstack 10
+    (hole 3.2)
+    (plated false)
+    (pad (layer TCOP) (round 1.600))
+    (pad (layer INNER) (round 1.600))
+    (pad (layer BCOP) (round 1.600))
+   )
+   (model "A-2004-2-4-LP-N-R.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

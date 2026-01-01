@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CDRH127-221M
+D IINDUCTOR POWER 220uH, 1.45A, 12X12X8mm SMD
+K
+F https://www.mouser.com/datasheet/2/390/CDRH127,127LD-514245.pdf
+$ENDCMP
+#
+#End Doc Library

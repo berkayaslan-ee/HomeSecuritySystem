@@ -1,0 +1,9 @@
+Manufacturer=Galaxy
+PartNumber=CDRH127-221M
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2022-08-12 10:11:47
+Downloaded=2025-01-24 14:29:00
+3D=Y

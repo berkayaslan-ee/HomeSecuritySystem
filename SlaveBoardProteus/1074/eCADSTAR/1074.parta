@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_1996955"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-15-10:59:10)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "1074")
+)
+
+
+(pinAssign "ECS_1996955"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-15-10:59:10)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1996955")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "1074")
+)
+
+
+(part "1074"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-15-10:59:10)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "1074")
+    (pinAssignRef "ECS_1996955")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "U")
+    (property "description" "Coin Cell Battery Holders VERTICAL THM COIN CELL HOLDER")
+    (property "Manufacturer_Name" "Keystone Electronics")
+    (property "Manufacturer_Part_Number" "1074")
+    (property "Mouser_Part_Number" "534-1074")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1074?qs=u16ybLDytRZ%2FZj7HSRmD5g%3D%3D")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.keyelco.com/product-pdf.cfm?p=14390")
+    (property "compAreaTopHeight" 18.3)
+)
+
+

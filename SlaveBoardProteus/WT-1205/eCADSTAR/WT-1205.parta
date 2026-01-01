@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_551186"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-06-19-10:23:59)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "WT-1205")
+)
+
+
+(pinAssign "ECS_551186"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-06-19-10:23:59)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_551186")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "WT-1205")
+)
+
+
+(part "WT-1205"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-06-19-10:23:59)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "WT-1205")
+    (pinAssignRef "ECS_551186")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "LS")
+    (property "description" "AUDIO MAGNETIC XDCR 4-6V TH")
+    (property "Manufacturer_Name" "Soberton Inc.")
+    (property "Manufacturer_Part_Number" "WT-1205")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.soberton.com/wp-content/uploads/2019/02/WT-1205-16-Feb-2019.pdf")
+    (property "compAreaTopHeight" 10)
+)
+
+

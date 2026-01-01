@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "WT1205"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "WT1205")
+        (spec "default")
+    )
+)

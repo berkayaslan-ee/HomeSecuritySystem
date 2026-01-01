@@ -1,0 +1,105 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "1074"
+   (description "Coin Cell Battery Holders VERTICAL THM COIN CELL HOLDER")
+   (family "ANA")
+   (package "1074")
+   (attribute "Datasheet Link" "https://www.keyelco.com/product-pdf.cfm?p=14390")
+   (attribute "Geometry.Height" "18.3mm")
+   (attribute "Manufacturer_Name" "Keystone Electronics")
+   (attribute "Manufacturer_Part_Number" "1074")
+   (attribute "Mouser Part Number" "534-1074")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1074?qs=u16ybLDytRZ%2FZj7HSRmD5g%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "1074")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+   )
+  )
+  (symbol "1074"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "1074"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -6.5 1.15)
+      (pt 16.5 1.15)
+      (pt 16.5 -4.95)
+      (pt -6.5 -4.95)
+      (pt -6.5 1.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -6.5 1.15)
+      (pt 16.5 1.15)
+      (pt 16.5 -4.95)
+      (pt -6.5 -4.95)
+      (pt -6.5 1.15))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.5 2.15)
+      (pt 17.5 2.15)
+      (pt 17.5 -5.95)
+      (pt -7.5 -5.95)
+      (pt -7.5 2.15))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 5.000 -3.800) (padstack 0))
+   (leg 3 (pt 10.000 0.000) (padstack 0))
+   (padstack 0
+    (hole 1.3)
+    (plated true)
+    (pad (layer TCOP) (round 1.950))
+    (pad (layer INNER) (round 1.950))
+    (pad (layer BCOP) (round 1.950))
+   )
+   (model "1074.stp"
+    (euler 90 0 0)
+    (offset 5 -1.899999976158142 14.680000305175781)
+   )
+  )
+ )
+)

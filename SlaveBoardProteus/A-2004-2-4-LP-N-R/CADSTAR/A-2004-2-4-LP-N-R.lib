@@ -1,0 +1,18 @@
+.A-2004-2-4-LP-N-R :1 ;Conn Modular Jack F 8 POS 2.54mm Solder RA Thru-Hole 8 Terminal 1 Port
+A200424LPNR
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8"
+*MXP 10
+*DFN A-2004-2-4-LP-N-R
+~!Manufacturer_Name (ASSMANN WSW components GmbH)
+~!Manufacturer_Part_Number (A-2004-2-4-LP-N-R)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (A-2004-2-4-LP-N-R)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/a-2004-2-4-lp-n-r/assmann-wsw-components-inc?region=nac)
+~!Link Datasheet (http://www.assmann-wsw.com/fileadmin/datasheets/ASS_7273_CO.pdf)
+~!Height (11.75mm)
+~!3D_Model (A-2004-2-4-LP-N-R)
+A-2004-2-4-LP-N-R
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

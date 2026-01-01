@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'A_2004_2_4_LP_N_R'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ASSMANN WSW components GmbH", "A-2004-2-4-LP-N-R" (!) = "", "A200424LPNR", "Other", "", "", "A-2004-2-4-LP-N-R", "https://www.arrow.com/en/products/a-2004-2-4-lp-n-r/assmann-wsw-components-inc?region=nac", "Conn Modular Jack F 8 POS 2.54mm Solder RA Thru-Hole 8 Terminal 1 Port", "http://www.assmann-wsw.com/fileadmin/datasheets/ASS_7273_CO.pdf", "11.75 mm"
+END_PART
+
+END.

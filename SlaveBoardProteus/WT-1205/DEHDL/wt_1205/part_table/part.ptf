@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'WT_1205'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Soberton Inc.", "WT-1205" (!) = "", "WT1205", "Other", "", "", "", "", "AUDIO MAGNETIC XDCR 4-6V TH", "https://www.soberton.com/wp-content/uploads/2019/02/WT-1205-16-Feb-2019.pdf", "10 mm"
+END_PART
+
+END.
